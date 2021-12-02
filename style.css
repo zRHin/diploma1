@@ -5,10 +5,11 @@
 
 .header {
   box-sizing: border-box;
-  padding: 0 245px;
   height: 450px;
   max-width: 100%;
   min-width: 1660px;
+  padding: 0 245px;
+  
   background-color: #000000;
   background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg);
   background-size: cover;
@@ -33,21 +34,18 @@
 
 .container {
   padding: 28px 0 0 3px;
+  
   display: flex;
   justify-content: space-between;
 }
 
 .header-logo {
   width: 180px;
-  /* padding-top: 36px; */
 }
 
 .menu {
-  /* margin-top: 17px; */
-  margin-bottom: 4px;
-  /* padding-bottom: 13px; */
   padding-top: 13px;
-  /* gap: 35px; */
+  margin-bottom: 4px;
 }
 
 .menu-list li{
@@ -76,19 +74,15 @@
 }
 
 .title {
-  /* width: 100%; */
-  /* box-sizing: border-box; */
-  /* min-width: 680px; */
   padding: 0 233px;
   margin-top: 102px;
+  
   font-family: OpenSansBold, Arial, sans-serif;
   color: #ffffff;
   font-size: 45px;
   text-align: center;
   line-height: 1.66;
   text-transform: uppercase;
-  /* vertical-align: text-top; */
-  /* margin-bottom: 146px; */
 }
 
 .page {
@@ -97,6 +91,7 @@
   min-width: 1660px;
   margin: 0 0px 64px;
   padding: 0 245px;
+  
   display: flex;
   justify-content: space-between;
 }
@@ -107,6 +102,7 @@
 
 .card {
   margin-top: 63px;
+  
   display: flex;
   flex-wrap: no-wrap;
 }
@@ -115,13 +111,13 @@
   box-sizing: border-box;
   width: 381px;
   height: 291px;
+  
   background-color: #f4f7f6;
 }
 
 .card-content {
   box-sizing: border-box;
   margin-left: 30px;
-  /* padding-top: 2px; */
 }
 
 .card-menu-list li{
@@ -149,6 +145,7 @@
 .card-name {
   margin-top: 5px;
   margin-bottom: 26px;
+  
   font-family: OpenSansBold, Arial, sans-serif;
   font-size: 20px;
   line-height: 1.2;
@@ -164,12 +161,12 @@
   font-family: OpenSansBold, Arial, sans-serif;
   font-size: 12px;
   color: #888888;
-  
   text-align: left;
 }
 
 .card-author {
   margin-left: 5px;
+  
   font-family: OpenSansBold, Arial, sans-serif;
   font-size: 12px;
   color: #000000;
@@ -179,6 +176,7 @@
 .card-text {
   padding-top: 47px;
   padding-bottom: 15px;
+  
   font-family: OpenSansRegular, Arial, sans-serif;
   font-size: 15px;
   color: #000000;
@@ -196,13 +194,14 @@
 
 .aside-posts {
   margin-top: 59px;
+  
   display: flex;
   flex-wrap: wrap;
 }
 
 .aside-name {
   margin: auto;
-  /* padding-bottom: 14px; */
+  
   font-family: OpenSansBold, Arial, sans-serif;
   font-size: 14px;
   color: #000000;
@@ -222,21 +221,21 @@
 
 .aside-post {
   margin-top: 21px;
+  
   display: flex;
   flex-wrap: no-wrap;
 }
 
 .aside-post-preview {
-  /* box-sizing: border-box; */
   width: 70px;
   height: 70px;
+  
   background-color: #f4f7f6;
-  /* margin-left: 15px; */
-  /* padding-left: 16px; */
 }
 
 .aside-post-date {
   padding-left: 21px;
+  
   font-family: OpenSansRegular, Arial, sans-serif;
   font-size: 12px;
   color: #000000;
@@ -245,6 +244,7 @@
 
 .aside-post-name {
   padding-left: 21px;
+  
   font-family: OpenSansBold, Arial, sans-serif;
   font-size: 14px;
   color: #000000;
@@ -277,6 +277,7 @@
   padding: 18px 18px;
   margin: 1px 0;
   border: none;
+  
   background-color: #f4f7f6;
   font-family: OpenSansRegular, Arial, sans-serif;
   font-size: 13px;
@@ -289,9 +290,10 @@
 }
 
 .search-btn {
-  margin: 0 1px;
   width: 56px;
+  margin: 0 1px;
   border: none;
+  
   background-color: #b59f5b;
   background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/search.svg);
   background-size: 18px 18px;
@@ -310,6 +312,7 @@
 .subscribe-field-group {
   margin-top: 17px;
   padding: 1px;
+  
   display: flex;
   flex-wrap: wrap;
 }
@@ -324,6 +327,7 @@
   height: 49px;
   padding: 18px 18px;
   border: none;
+  
   background-color: #f4f7f6;
   font-family: OpenSansRegular, Arial, sans-serif;
   font-size: 13px;
@@ -340,6 +344,7 @@
   height: 49px;
   margin-top: 18px;
   border: none;
+  
   background-color: #b59f5b;
 }
 
@@ -351,7 +356,6 @@
   font-family: OpenSansBold, Arial, sans-serif;
   font-size: 14px;
   color: #ffffff;
-  
   text-transform: uppercase;
 }
 
@@ -365,12 +369,13 @@
 }
 
 .tags-list {
-    padding: 0 15px;
+  padding: 0 15px;
 }
 
 .tags-list li{
   margin-top: 6px;
   margin-right: 36px;
+  
   display: inline;
 }
 
@@ -382,6 +387,7 @@
   list-style-type: none;
   text-transform: uppercase;
   text-decoration: none;
+  
   outline: 3px solid #eeeeee;
   outline-offset: 8px;
 }
@@ -411,7 +417,6 @@
   font-family: OpenSansBold, Arial, sans-serif;
   color: #000000;
   font-size: 14px;
-  
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -434,6 +439,7 @@
   min-width: 1660px;
   margin-bottom: 41px;
   padding: 0 245px;
+  
   display: flex;
   flex-wrap: wrap;
 }
@@ -441,6 +447,7 @@
 .socials {
   width: 100%;
   padding: 37px 477px;
+  
   background-color: #f4f7f6;
   display: flex;
   flex-wrap: no-wrap;
@@ -467,6 +474,7 @@
   width: 100%;
   margin: 61px 411px 0;
   padding-left: 71px;
+  
   font-family: OpenSansBold, Arial, sans-serif;
   color: #999999;
   font-size: 12px;
