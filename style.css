@@ -36,6 +36,7 @@
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
+  padding-bottom: 124px;
 }
 
 .container {
@@ -80,7 +81,7 @@
 }
 
 .title {
-  padding: 102px 233px 124px;
+  margin: 102px 233px 0;
   
   font-family: OpenSansBold, Arial, sans-serif;
   color: #ffffff;
@@ -93,7 +94,6 @@
 .page {
   max-width: 100%;
   min-width: 1660px;
-  margin: 0 0px 64px;
 }
 
 .page-content {
@@ -101,8 +101,7 @@
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 60px 15px 64px;
   
   display: flex;
   justify-content: space-between;
@@ -113,17 +112,20 @@
 }
 
 .card {
-  margin-top: 60px;
-  
   display: flex;
   flex-wrap: nowrap;
 }
 
+.card:nth-child(n+2) {
+  margin-top: 60px;
+}
+
 .card-preview {
-  box-sizing: border-box;
-  width: 381px;
-  
   background-color: #f4f7f6;
+}
+
+.card-img {
+  width: 381px;
 }
 
 .card-content {
@@ -185,8 +187,8 @@
 }
 
 .card-text {
-  padding-top: 47px;
-  padding-bottom: 15px;
+  margin-top: 47px;
+  margin-bottom: 15px;
   
   font-family: OpenSansRegular, Arial, sans-serif;
   font-size: 15px;
@@ -237,10 +239,12 @@
   flex-wrap: nowrap;
 }
 
-.aside-post-preview {
-  width: 70px;
-  
+.aside-post-preview {  
   background-color: #f4f7f6;
+}
+
+.thumb {
+  width: 70px;
 }
 
 .aside-post-date {
@@ -383,10 +387,10 @@
 }
 
 .tags-list li{
-  margin-top: 6px;
-  margin-right: 36px;
+  margin-right: 25px;
+  margin-bottom: 6px;
   
-  display: inline;
+  display: inline-block;
 }
 
 .tags-list-item a{
@@ -423,11 +427,19 @@
   margin-top: 28px;
 }
 
+.themes-list-item::after {
+  content: "";
+  width: 100%;
+  padding-top: 18px;
+  border-bottom: 1px solid #eeeeee;
+  
+  display: block;
+}
+
 .themes-link {
   font-family: OpenSansBold, Arial, sans-serif;
   color: #000000;
   font-size: 14px;
-  text-transform: uppercase;
   text-decoration: none;
 }
 
@@ -460,12 +472,17 @@
   flex-direction: column;
 }
 
+.socials-container { 
+  background-color: #f4f7f6;
+  
+  display: flex;
+}
+
 .socials {
-  padding: 10px 0;
+  padding: 27px 0;
   margin-right: auto;
   margin-left: auto;
-  
-  background-color: #f4f7f6;
+
   lyst-style-type: none;
 }
 
@@ -483,7 +500,7 @@
 
 .link-twitter {
   width: 25px;
-  height: 21px;
+  height: 25px;
   
   background-repeat: no-repeat;
   background-size: cover;
@@ -493,7 +510,7 @@
 
 .link-pinterest {
   width: 25px;
-  height: 21px;
+  height: 25px;
   
   background-repeat: no-repeat;
   background-size: cover;
@@ -503,7 +520,7 @@
 
 .link-facebook {
   width: 25px;
-  height: 21px;
+  height: 25px;
   
   background-repeat: no-repeat;
   background-size: cover;
@@ -513,7 +530,7 @@
 
 .link-instagram {
   width: 25px;
-  height: 21px;
+  height: 25px;
   
   background-repeat: no-repeat;
   background-size: cover;
@@ -523,7 +540,7 @@
 
 .link-tumblr {
   width: 25px;
-  height: 21px;
+  height: 25px;
   
   background-repeat: no-repeat;
   background-size: cover;
